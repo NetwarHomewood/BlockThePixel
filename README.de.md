@@ -195,4 +195,6 @@ BlockThePixel wurde mit KI-Unterstützung entwickelt, mit [Claude Code](https://
 
 ## Lizenz
 
-[MIT](LICENSE) © 2026 The BlockThePixel authors
+[MIT](LICENSE) © 2026 [The BlockThePixel authors](https://github.com/NetwarHomewood/BlockThePixel)
+
+Frei nutzbar, veränderbar und weitergebbar, auch kommerziell, solange Copyright-Vermerk und Lizenztext erhalten bleiben.

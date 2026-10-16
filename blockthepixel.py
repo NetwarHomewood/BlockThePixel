@@ -15,6 +15,8 @@ nur Kopierbefehle, keine Shader. Abhängigkeiten: numpy, cffi, pywin32, Pillow. 
 
 Ansatz verwandt mit github.com/JoshBolding/gpu-vram-quarantine (Linux/CUDA), kein Code übernommen.
 Entwickelt mit KI-Unterstützung (Claude Code, Anthropic).
+
+Projekt: https://github.com/NetwarHomewood/BlockThePixel – MIT-Lizenz, siehe LICENSE.
 """
 
 import argparse
@@ -48,6 +50,7 @@ except ImportError:  # ohne pywin32 läuft BlockThePixel ohne Symbol in der Syst
 
 NAME = "BlockThePixel"
 VERSION = "0.2"
+PROJEKT_URL = "https://github.com/NetwarHomewood/BlockThePixel"
 MIB = 1024 * 1024
 
 # Exit-Codes
@@ -1488,7 +1491,7 @@ class Systemleiste:
 
     def _status_text(self):
         _, kurz, d = self.zustand.lese()
-        zeilen = [f"{NAME} {VERSION}", "", f"{t('s_zustand')}: {kurz}"]
+        zeilen = [f"{NAME} {VERSION}", PROJEKT_URL, "", f"{t('s_zustand')}: {kurz}"]
         for schluessel, titel in (("gesperrt", "s_gesperrt"), ("fehler", "s_fehler"), ("normalwert", "s_normal"),
                                   ("seit_erstem", "s_seit"), ("gesucht", "s_gesucht"),
                                   ("letzte_pruefung", "s_pruefung"), ("statistik", "s_verlauf"),

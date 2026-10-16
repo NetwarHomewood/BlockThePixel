@@ -197,4 +197,6 @@ BlockThePixel was developed with AI assistance, using [Claude Code](https://clau
 
 ## License
 
-[MIT](LICENSE) © 2026 The BlockThePixel authors
+[MIT](LICENSE) © 2026 [The BlockThePixel authors](https://github.com/NetwarHomewood/BlockThePixel)
+
+Free to use, change and pass on, including commercially, as long as the copyright notice and the license text stay included.
